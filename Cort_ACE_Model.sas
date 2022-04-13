@@ -1,8 +1,6 @@
 libname out1 "/home/users/mcraft.AD3/CortACEProject/output1";
-*libname out1 "C:/Users/mcraft/Desktop/ACE and Cortisol/out1";
 
 proc import datafile="/home/users/mcraft.AD3/CortACEProject/mi_data1.txt" out=out1.data dbms = dlm replace; run;
-*proc import datafile = "C:/Users/mcraft/Desktop/ACE and Cortisol/mi_data1.txt" out=out1.data dbms = dlm replace; *run;
 
 * sort data;
 proc sort data = out1.data; by imp M2ID M2FAMNUM day; run;
@@ -113,7 +111,6 @@ rhov2	0.5534
 alpv	-0.9544;
 
 by _imputation_;
-where _imputation_ = 1;
 
 sdu0 =sqrt(exp(alp00 + alp01*fem + alp02*agec + alp012*fem*agec + alp03a*dstressc + alp03b*mstress + alp04a*pmc_cortwt + alp04b*mwake + alp05*smoking + alp06*medicationsx + alp07*ace));
 sdu1 =sqrt(exp(alp10 + alp11*fem + alp12*agec + alp112*fem*agec + alp13a*dstressc + alp13b*mstress + alp14a*pmc_cortwt + alp14b*mwake + alp15*smoking + alp16*medicationsx + alp17*ace));
