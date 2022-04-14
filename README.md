@@ -1,4 +1,6 @@
 # Cortisol-and-ACE-Project
+Summary:
+The goal of this project was to understand the relationship between adverse childhood experiences and daily cortisol trajectories. 
 
 The prep cortisol and ACE data for MI.sas file merges MIDUS datasets, creates variables, applies exclusion criteria for problematic cortisol values, and preps the data for multiple imputation.
 
