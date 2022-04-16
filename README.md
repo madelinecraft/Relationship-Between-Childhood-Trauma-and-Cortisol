@@ -9,7 +9,7 @@ Dysregulated daily corisol rhythms have been linked to a variety of poor health 
 
 Details of the Analysis:
 
-* The SAS "file prep cortisol and ACE data for MI.sas" stored above merges datasets, creates variables, applies exclusion criteria for problematic cortisol values, and prepares the data for analysis.
+* The SAS file "prep cortisol and ACE data for MI.sas" stored above merges datasets, creates variables, applies exclusion criteria for problematic cortisol values, and prepares the data for analysis.
 
 * The statistical model of interest removes individuals with missing adverse childhood experience measures by default, resulting in a significant loss of data. We applied a statistical method which allowed the model to retain these individuals. The R file "CorACE_imputation.R" was used to augment the data and is stored above.
 
