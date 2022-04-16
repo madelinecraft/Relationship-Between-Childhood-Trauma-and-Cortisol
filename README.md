@@ -1,4 +1,4 @@
-# Adverse Childhood Experiences and Cortisol
+# The Relationship between Childhood Trauma and Cortisol
 ## Summary:
 
 The goal of this project was to understand the relationship between adverse childhood experiences and cortisol (a stress-related hormone) over time. To sufficiently capture the natural daily rhythm of cortisol, measures were obtained multiple times daily for each individual. See the figure below for a visual of cortisol's typical daily rhythm. 
