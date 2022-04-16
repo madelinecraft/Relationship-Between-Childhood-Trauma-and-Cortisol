@@ -1,18 +1,21 @@
 # Cortisol-and-ACE-Project
 Summary:
-The goal of this project was to understand the relationship between adverse childhood experiences and cortisol (a stress-related hormone) over time. To sufficiently capture the natural daily rhythm of cortisol, measures were obtained multiple times daily for each individual. Therefore, these data are longitudinal, and statistical methods for longitudinal data were applied. The results of the analysis showed that adverse childhood experiences...
+
+The goal of this project was to understand the relationship between adverse childhood experiences and cortisol (a stress-related hormone) over time. To sufficiently capture the natural daily rhythm of cortisol, measures were obtained multiple times daily for each individual. Therefore, these data are longitudinal, and statistical methods for nonlinear longitudinal data were applied. The results of the analysis showed that adverse childhood experiences predict dysregulated daily cortisol rhythms. 
+
+Application of Results:
+
+Dysregulated daily corisol rhythms have been linked to a variety of poor health outcomes (e.g., inflammation, heart disease, depression/anxiety). The implications of these findings is that adverse childhood experiences put individuals at greater risk of poor health outcome via chronically high exposure to the stress-related hormone cortisol. 
+
+Details of the Analysis:
+
+The SAS "file prep cortisol and ACE data for MI.sas" stored above merges MIDUS datasets, creates variables, applies exclusion criteria for problematic cortisol values, and prepares the data for analysis.
+
+Missing values of the variable adverse childhood experiences resulted in a significant loss of data. Therefore, a data augmentation method, called multiple imputation, was performed using the R package "mice" (see the file "CorACE_imputation.R"). 
 
 
+HERE!!
 
-
-
-
-
-Cortisol, a stress-related hormone, has a daily rhythm that is best-identified through multiple daily measures. 
-
-The prep cortisol and ACE data for MI.sas file merges MIDUS datasets, creates variables, applies exclusion criteria for problematic cortisol values, and preps the data for multiple imputation.
-
-The CorACE_imputation.R file performs multilevel multiple imputation using the R package "mice".
 
 The Cort_ACE_Model.sas file is one of 2 SAS scripts for fitting models to the imputed datasets on a UNIX server. 
 
@@ -22,10 +25,6 @@ The Powerpoint file provides a summary of the project.
 
 
 
-
-Summary:
-
-The goal of this project was to understand the relationship between the sentiment of YouTube video comments and the number of "likes" a comment receives. Comments and each comment's number of "likes" were scraped from YouTube and comments were analyzed for sentiment. The results of the analysis showed that the more positively sentimented a comment was, the more "likes" a comment received.
 
 Application of Results:
 
