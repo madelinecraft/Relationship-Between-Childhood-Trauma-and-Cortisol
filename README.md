@@ -7,11 +7,11 @@ The goal of this project was to understand the relationship between adverse chil
 
 These data are longitudinal (collected from each individual across four consequtive days) and follow a nonlinear trajectoy. As such, statistical methods for nonlinear longitudinal data were applied. 
 
-Dysregulated daily cortisol rhythms deviate from the tyipcal daily cortisol rhythm (e.g., blunted/steep awakening response, slow deceleration throughout the day). See the figure below, which demonstrates daily cortisol rhythms for a sample of individuals across four consequtive days. As the figure demonstrates, some indivdiuals deviate significantly from a typical daily cortisol rhythm.
+Dysregulated daily cortisol rhythms deviate from the tyipcal daily cortisol rhythm (e.g., blunted/steep awakening response, slow/fast deceleration throughout the day). See the figure below, which demonstrates daily cortisol rhythms for a sample of individuals across four consequtive days. As the figure demonstrates, some indivdiuals deviate significantly from the typical daily cortisol rhythm presented in the figure above.
 
 <img width="474" alt="Screen Shot 2022-04-16 at 2 02 21 PM" src="https://user-images.githubusercontent.com/39779853/163689739-3405ce7e-4005-4cee-9a60-2beaea0dada2.png">
 
-## Project Results and their Application:
+## Project Results and Application:
 
 Our analyses showed that adverse childhood experiences predict dysregulation of daily cortisol rhythms. Dysregulated daily corisol rhythms have been linked to a variety of poor health outcomes (e.g., inflammation, heart disease). The implications of these findings is that adverse childhood experiences put individuals at greater risk of poor health outcome via chronic high exposure to the stress-related hormone cortisol. 
 
